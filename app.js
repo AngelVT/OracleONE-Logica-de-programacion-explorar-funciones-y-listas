@@ -32,8 +32,8 @@ function verificarIntento() {
 
 function generarSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo) + 1;
-    console.log(numeroGenerado);
-    console.log(listaNumerosSorteados);
+    //console.log(numeroGenerado);
+    //console.log(listaNumerosSorteados);
     //si ya todos los numeros fueron sorteados salir
     if (listaNumerosSorteados.length == numeroMaximo) {
         asignarTextoElemento('p','Ya se sortearon todos los numeros posibles')
